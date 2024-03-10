@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #000;
+    color: #fff;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 20px 0 20px;
+}
+.catalog__bg {
+    background-image: url(./img/bg_c.png);
+    background-size: no-repeat;
+    background-size: cover;
+
+    height: 200vh;
+    opacity: 0.6;
+}
+.catalog__tittle {
+    font-family: Cormorant;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 33%;
+}
+img {
+    max-width: 90%;
+}
+h3 {
+    margin: 50px 0 40px 0;
+    font-family: Oswald;
+    color: #fff;
+text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
